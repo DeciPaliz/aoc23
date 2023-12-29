@@ -6,7 +6,8 @@
          reprovide/require-transformer/glob-in
          "solution.rkt")
 
-(require (glob-in "solutions/*.rkt"))
+(require (glob-in "solutions/*.rkt")
+         (glob-in "solutions/**/main.rkt"))
 
 (command-line
  #:program "aoc23"
