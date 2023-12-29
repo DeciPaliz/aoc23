@@ -1,0 +1,10 @@
+*.rkt~
+*.rkt.bak
+\#*.rkt#
+\#*.rkt#*#
+compiled/
+*.zo
+*.dep
+
+out/
+input/*.txt
